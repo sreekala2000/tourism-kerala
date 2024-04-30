@@ -1,0 +1,347 @@
+.content
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background: rgba(239, 106, 106, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+.content:hover
+{
+    opacity: 1;
+}
+
+.content p
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.content1
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background:rgba(98, 244, 125, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s; 
+}
+
+.content1:hover
+{
+    opacity: 1;
+}
+.content1 p
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.content3
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background:rgba(244, 115, 34, 0.852);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s; 
+}
+.content3:hover
+{
+    opacity: 1;
+}
+.content3 p
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.content4
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background:rgba(63, 75, 154, 0.852);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s; 
+}
+.content4:hover
+{
+    opacity: 1;
+}
+.content4 p
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.content5
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background:rgba(235, 202, 102, 0.852);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;   
+}
+.content5:hover
+{
+    opacity: 1;
+}
+.content5 p
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.content6
+{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background:rgba(250, 173, 5, 0.735);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s; 
+}
+.content6:hover
+{
+    opacity: 1;
+}
+.content6 p
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+    .title .caption-bottum
+    {
+        font-size: 14px;
+        font-weight: 100;
+        padding: 5px;
+    }
+    .title .caption-bottum{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 10px 10px;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+    }
+   
+    .caption-top
+    {
+        position: absolute;
+        top:18px;
+        padding-left: 25px;
+        color: white;
+        font-size: 20px;
+    }
+    .caption-top p{
+        color: white;
+        font-size: 13px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .title .btn
+    {
+        position: absolute;
+        top: 170px;
+        right: 10px;
+        color: white;
+        height: 30px;
+        font-size: 14px;
+    }
+
+
+    
+
+    
+.video-content button{
+    position: relative;
+    top :-800px;
+    margin-left: 500px;
+}
+
+.video-content p{
+    text-align: center;
+    position: relative;
+    top: -750px;
+    color: white;
+
+}
+.card .btn:hover {
+    background-color: rgb(170, 69, 69);
+  }
+  .card .btn{
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      padding: 5px 8px;
+      background-color: #900;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 300;
+      border-radius: 0;
+  }
+  .overlay{
+    width: 100%;
+    height: 0;
+    background:linear-gradient(transparent, #aeacac 58%);
+    border-radius: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+    }
+  
+    .text {
+      color: rgb(243, 235, 235);
+      font-size: 18px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+   
+    .figure button{
+        border-radius: 100%;
+        background: darkblue;
+        width: 100px;
+        height: 100px;
+
+    }
+    .figure img{
+        width: 50px;
+        height: 50px;
+    }
+    
+  .social-icons-list{
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .social-icons-list ul{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 200px;
+  }
+  .social-icons-list ul li{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0px 10px;
+  }
+  .social-icons-list ul a{
+    display: block;
+    font-size: 60px;
+    color: #fff;
+  }
+
+@media screen and (max-width: 768px) {
+    /* Adjust the size of the video container */
+    .black-video{
+      height: 500px;
+    }
+    .video-content button{
+        margin-left: 20px;
+        position: relative;
+        top: -400px;
+    }
+    .video-content p{
+        margin-left: 10px;
+        position: relative;
+        top: -350px;
+    
+    }
+    footer{
+        height: auto;
+    }
+    .social-icons-list ul li{
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        border-radius:100%;
+        margin-right: 20px;
+        margin: 0px 5px;
+      }
+      .social-icons-list ul a{
+        display: block;
+        font-size: 30px;
+      }
+      .social-icons-list ul{
+        margin: 0px 3px;
+        
+      }
+     
+      
+     
+  }
+
+    @media(max-width:392)
+{
+    .title .btn {
+        width: 100%;
+        height: 100%;
+    }
+}     
